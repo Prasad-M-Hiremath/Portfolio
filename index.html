@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Font Awesome -->
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<!-- Include Typed.js from CDN -->
+	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+	<link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
+	<script  src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+	<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+</head>
+<body>
+	<div class="scroll-up-btn">
+		<i class="fas fa-angle-up"></i>
+	</div>
+	<nav class="navbar">
+		<div class="max-width">
+			<div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
+			<ul class="menu">
+				<li><a href="#home" class="menu-btn">Home</a></li>
+				<li><a href="#about" class="menu-btn">About</a></li>
+				<li><a href="#about" class="menu-btn">Skills</a></li>
+				<li><a href="#project" class="menu-btn">Projects</a></li>
+				<li><a href="#contact" class="menu-btn">Contact</a></li>
+			</ul>
+			<div class="menu-btn">
+				<i class="fas fa-bars"></i>
+			</div>
+		</div>
+
+	</nav>
+
+	<section class="home" id="home">
+		<div class="max-width">
+			<div class="home-content">
+				<div class="text-1">Hello, My name is</div>
+				<div class="text-2">Prasad M Hiremath</div>
+				<div class="text-3">And I'm a <span class="text"></span></div>
+				<a href="#">Hire me</a><br/>
+				
+			</div>
+			<div class="home-sci">
+				<a href="https://www.linkedin.com/in/prasad-hiremath-21366b1b8/"><i class='bx bxl-linkedin'></i></a>
+				<a href="mailto:prasadhiremath1443@gmail.com"><i class='bx bx-envelope' ></i></a>
+				<a href="https://github.com/Prasad-M-Hiremath"><i class='bx bxl-github' ></i></a>
+				<a href="tel:+919110279636"><i class='bx bx-phone-call' ></i></a>
+
+
+			</div>
+			<a href="#about" class="btn-box">More About Me</a>
+		</div>
+	</section>
+
+
+	<section class="about" id="about">
+		<div class="max-width">
+			<h2 class="title">About Me</h2>
+			<div class="about-content">
+				<div class="column left">
+					<img src="images/image-1.jpg" alt="">
+				</div>
+				<div class="column right">
+					<div class="text">I'm Prasad and I'm a <span class="type-2"></span></div>
+					<p>I am Prasad Hiremath, a recent graduate with a Master's degree in Computer Applications (MCA). 
+						My academic journey has fostered a strong interest in programming languages such as Python, Java, HTML, CSS, JavaScript, and ReactJS. 
+						During my studies, I specialised in Python programming and utilised various libraries to implement data-driven projects. 
+						I am currently seeking opportunities in the IT industry, particularly in roles focused on data analysis or software development. 
+						I am enthusiastic about applying my skills in Python and web technologies to contribute effectively to projects that drive innovation and solve complex challenges.
+					 </p>
+					
+
+					<!-- SKILLS/EXPERIENCE/EDUCATION -->
+					<div class="tab-titles">
+						<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+						<p class="tab-links" onclick="opentab('experience')">Experience</p>
+						<p class="tab-links" onclick="opentab('education')">Education</p>
+
+					</div>
+					<div class="tab-contents active-tab" id="skills">
+						<ul>
+							<li><span>Programming Languages</span><br>C, C++, Java, Python.</li>
+							<li><span>Web Development</span><br>HTML, CSS, JavaScript, ReactJS.</li>
+							<li><span>Database</span><br>MySQL, Oracle. </li>
+							<li><span>Machnine Learning</span><br>CNN, Densenet121, Efficientnet, InceptionV3.</li>
+							<li><span>Tools</span><br>VS Code, Pycharm, PowerBI, Google Colab, Jupyter Notebook. </li>
+
+						</ul>
+					</div>
+					<div class="tab-contents" id="experience">
+						<ul>
+							<li><span>NOV 2023 to DEC 2023</span><br><b>Internship in InDataAi</b><br><i>Intern, specialising in the Titanic survival prediction project, utilising machine learning with Python, Pandas, 
+								NumPy, and Django for comprehensive data analysis and web development. Implemented ML models to 
+								enhance survival predictions </i></li>
+							<li><span>AUG 2023 to OCT 2023</span><br><b>Intern at SOC Experts</b><br><i>Developed new user-facing features using React.js. by building reusable components and front-end libraries 
+								for future use by optimising components for maximum performance across a vast array of web-capable 
+								devices and browsers </i></li>
+
+						</ul>
+					</div>
+					<div class="tab-contents" id="education">
+						<ul>
+							<li><span>2021-2023 </span><br><b> Master of Computer Applications</b><br><i>KLE Institute of Technology</i><br>CGPA - 8.6/10</li>
+							<li><span>2018-2021</span><br><b>Bachelor of Computer Applications</b><br><i>KLE's BCA Hubli</i><br>Percentage - 73/100  </li>
+							<li><span>2016-2018</span><br><b>PUC Science</b><br><i>PC Jabin Science College Hubli</i><br>Percentage - 69.1/100</li>
+							<li><span>2015-2016</span><br><b>SSLC</b><br><i>Bhagini Nivedita High School Navanagar Hubli</i><br>Percentage - 81.6/100</li>
+
+
+						</ul>
+					</div>
+					<a href="images/resume/Prasad-M-Hiremath-9110279636.pdf">Download CV</a>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+
+
+	<!-- PROJECT SECTION -->
+	 <section class="project section" id="project">
+		<h2 class="section_title-1">
+			<span>My Projects.</span>
+		</h2>
+		<div class="project_container container grid">
+			<article class="projects_card">
+				<div class="projects_image">
+
+					<img src="images/project-1.jpg" alt="" class="projects_img">
+					<a href="#" class="projects_button button">
+						<i class="ri-arrow-right-up-line"></i>
+					</a>
+				</div>
+				<div class="projects_content">
+					<h2 class="projects_title">Diabetic Retinopathy Detection Using Machine Learning</h2>
+					<h3 class="project_subtitle">Python, CNN Model, Densenet Model, InceptionV3 Model</h3>
+
+					<p class="projects_description">
+						Diabetic retinopathy detection involves identifying damage to the retina caused by diabetes through imaging techniques and analysis.
+					</p>
+				</div>
+
+				<div class="projects_buttons">
+					<a href="https://github.com/Prasad-M-Hiremath/Diabetic-Retinopathy" target="_blank" class="projects_link">
+						<i class="ri-github-line"></i> View
+					</a>
+				</div>
+			</article>
+
+
+
+
+
+
+
+
+
+
+
+			
+
+			<article class="projects_card">
+				<div class="projects_image">
+
+					<img src="images/project-2.jpeg" alt="" class="projects_img">
+					<a href="#" class="projects_button button">
+						<i class="ri-arrow-right-up-line"></i>
+					</a>
+				</div>
+				<div class="projects_content">
+					<h2 class="projects_title">Titanic Survival Prediction Using Machine Learning</h2>
+					<h3 class="project_subtitle">Python, Django Framework, CNN Model</h3>
+
+					<p class="projects_description">
+						Titanic survival prediction using machine learning involves applying algorithms to passenger data to forecast the likelihood of survival.
+					</p>
+				</div>
+
+				<div class="projects_buttons">
+					<a href="https://github.com/Prasad-M-Hiremath/titanic-survival-prediction" target="_blank" class="projects_link">
+						<i class="ri-github-line"></i> View
+					</a>
+				</div>
+			</article>
+
+
+
+
+
+			<article class="projects_card">
+				<div class="projects_image">
+
+					<img src="images/project-3.jpg" alt="" class="projects_img">
+					<a href="#" class="projects_button button">
+						<i class="ri-arrow-right-up-line"></i>
+					</a>
+				</div>
+				<div class="projects_content">
+					<h2 class="projects_title">Web Scraping Using Python</h2>
+					<h3 class="project_subtitle">Python, Streamlit, BeautifulSoup, Requests-HTML</h3>
+
+					<p class="projects_description">
+						Scrape the IMDB top 250 movies data using Python and BeautifulSoup to extract titles, ranks, years, and ratings.
+					</p>
+				</div>
+
+				<div class="projects_buttons">
+					<a href="https://github.com/Prasad-M-Hiremath/webscrapping-using-IMDB" target="_blank" class="projects_link">
+						<i class="ri-github-line"></i> View
+					</a>
+				</div>
+			</article>
+
+
+
+
+
+			<article class="projects_card">
+				<div class="projects_image">
+
+					<img src="images/project-4.png" alt="" class="projects_img">
+					<a href="#" class="projects_button button">
+						<i class="ri-arrow-right-up-line"></i>
+					</a>
+				</div>
+				<div class="projects_content">
+					<h2 class="projects_title">Calculator Using ReactJs</h2>
+					<h3 class="project_subtitle">React.js</h3>
+
+					<p class="projects_description">
+						Implement a calculator in React.js to handle arithmetic operations by managing state for inputs and utilizing functions for addition, subtraction, multiplication, and division.
+
+					</p>
+				</div>
+
+				<div class="projects_buttons">
+					<a href="https://github.com/Prasad-M-Hiremath/react-calculator" target="_blank" class="projects_link">
+						<i class="ri-github-line"></i> View
+					</a>
+				</div>
+			</article>
+
+
+
+
+			<article class="projects_card">
+				<div class="projects_image">
+
+					<img src="images/project-5.png" alt="" class="projects_img">
+					<a href="#" class="projects_button button">
+						<i class="ri-arrow-right-up-line"></i>
+					</a>
+				</div>
+				<div class="projects_content">
+					<h2 class="projects_title">Smart Dustbin Using IOT</h2>
+					<h3 class="project_subtitle">C++, Arduino Uno, Servo motor, Ultrasonic sensor, battery-9V, Jumper wires</h3>
+
+					<p class="projects_description">
+						A smart dustbin using IoT automatically sorts and manages waste by utilizing sensors and connectivity for efficient disposal and monitoring, ensuring efficient and hygienic waste management. It enhances sustainability efforts by enabling smart resource allocation and reducing manual intervention.
+						
+					</p>
+				</div>
+
+				<div class="projects_buttons">
+					<a href="https://github.com/Prasad-M-Hiremath/Smart-Dustbin-IOT" target="_blank" class="projects_link">
+						<i class="ri-github-line"></i> View
+					</a>
+				</div>
+			</article>
+
+
+
+
+
+			
+
+
+
+
+
+
+		</div>
+	</section>
+
+
+
+	<!-- CONTACT SECTION -->
+	<section class="contact section" id="contact">
+		<h3 class="section_subtitle">
+			Get In <span>Touch</span>
+		</h3>
+		<h2 class="section_title">
+			Contact Me 
+		</h2>
+		<h4>I'M always open to new opportunities. If you're intrested in hiring me, just want to chat or if you have any ideas, feel free to reach out we can start conversation.</h4>
+		<div class="contact_container container grid">
+			<form action="" class="contact_form" id="contact-form">
+				<div class="contact_group">
+					Name<input type="text" name="user_name" required placeholder="Enter your name" class="contact_input">
+					Your Email<input type="email" name="user_email" required placeholder="✉ Enter your email" class="contact_input">
+
+
+				</div>
+				Your Message<textarea name="user_project" required placeholder="Enter your message" class="contact_input"></textarea>
+				<p class="contact_message" id="contact-message"></p>
+				<button type="submit" class="button contact_button">
+					Send Message
+				</button>
+			</form>
+
+			<div class="platform">
+				<h4>Or reach me out through these platforms:</h4>
+				<a href="https://www.linkedin.com/in/prasad-hiremath-21366b1b8/"><i class='bx bxl-linkedin'></i></a>
+				<a href="mailto:prasadhiremath1443@gmail.com"><i class='bx bx-envelope' ></i></a>
+				<a href="https://github.com/Prasad-M-Hiremath"><i class='bx bxl-github' ></i></a>
+				<a href="https://www.instagram.com/hiremath6728/"><i class='bx bxl-instagram' ></i></a>
+				<a href="https://wa.me/9110279636"><i class='bx bxl-whatsapp' ></i></a>
+				<a href="tel:+919110279636"><i class='bx bx-phone-call' ></i></a>
+			</div>
+			
+		</div>
+	</section>
+
+	<!-- FOOTER SECTION -->
+	 <!-- <footer class="footer">
+		<div class="footer_container container grid">
+			<div>
+				<h1 class="footer_title">
+					Prasad M <span>Hiremath</span>
+				</h1>
+			</div>
+			<div class="footer_social">
+				<a href="https://www.linkedin.com/in/prasad-hiremath-21366b1b8/" target="_blank" class="footer_social-link"><i class='bx bxl-linkedin'></i></a>
+				<a href="https://github.com/Prasad-M-Hiremath" target="_blank" class="footer_social-link"><i class='bx bxl-github' ></i></a>
+				<a href="https://www.instagram.com/hiremath6728/" target="_blank" class="footer_social-link"><i class='bx bxl-instagram' ></i></a>
+
+			</div>
+			<span class="footer_copy">
+				&#169; 2024 created by Prasad Hiremath. All rights reserved
+			</span>
+		</div>
+	 </footer> -->
+	 <footer class="footer">
+		<div class="footer_container container grid">
+			<div class="footer_image-container">
+				<a href="#home">
+					<img src="images/img1.png" alt="Your Image Description" class="footer_image">
+				</a>
+			</div>
+			<div class="footer_title-container">
+				<h1 class="footer_title">
+					Prasad M <span>Hiremath</span>
+				</h1>
+			</div>
+			
+			<div class="footer_social">
+				<a href="https://www.linkedin.com/in/prasad-hiremath-21366b1b8/" target="_blank" class="footer_social-link"><i class='bx bxl-linkedin'></i></a>
+				<a href="https://github.com/Prasad-M-Hiremath" target="_blank" class="footer_social-link"><i class='bx bxl-github' ></i></a>
+				<a href="https://www.instagram.com/hiremath6728/" target="_blank" class="footer_social-link"><i class='bx bxl-instagram' ></i></a>
+			</div>
+			<span class="footer_copy">
+				&#169; 2024 created by Prasad Hiremath. All rights reserved
+			</span>
+		</div>
+	</footer>
+
+
+
+
+
+
+
+
+
+
+
+	<script src="script.js"></script>
+
+</body>
+</html>
